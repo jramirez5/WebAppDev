@@ -1,27 +1,22 @@
 <!DOCTYPE-HTML>
 <html>
 <head>
-
 <style>
-
 .turtle{
-	height:250px;
+	height:225px;
 	width:300px;
-	margin-top:5%;
+	padding-top:20px;
 	margin-left:7%;
 }
 
 .firstborder{
 	width:350px;
-	height:314px;
-	border:double 5px #CC0000;
+	height:275.5px;
+	border:double 7.5px #CC0000;
 	background-color:white;
-	border-padding:10px; <!--padding top -->
 	display:block;
 	margin-left:auto;
-	margin-top:auto;
 	margin-right:auto;
-	margin-bottom:auto;
 }
 
 .turtletext{
@@ -38,17 +33,18 @@
 }
 
 .toptext{
+	padding-top:25px;
 	text-align:center;
 	color:#C00;
 	font-family:arial;
+	font-size:35px;
 }
 
 .secondborder{
 	width:400px;
-	height:440px;
-	border:solid 7px #33F;
+	height:400px;
+	border:solid 9px #33F;
 	background-color:white;
-	border-padding:10px;
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
@@ -56,24 +52,67 @@
 
 hr{
 	width:357px;
-	border-top:solid 1px #33F;
-	border-bottom:solid 1px #33F;
+	border:solid 1px #33F;
+}
+
+td, th{
+	border: solid 1px black;
+	text-align:center;
+}
+
+ul{
+	list-style-type: square;
+}
+
+.tables{
+	border:outset 5px gray;
+	margin-left:auto;
+	margin-right:auto;
+
 }
 </style>
-
 </head>
 <body bgcolor="#FC0">
 <!-- This is a comment-->
 <br>
 <div class="secondborder">
-<h1 class="toptext">Turtle Sandwiches</h1>
+<div class="toptext">Turtle Sandwiches</div>
 <hr>
 <hr>
 <div class="firstborder">
 <img src="turtle.jpg" class="turtle">
-<p class="turtletext">Coming soon to a market near you</p>
-<!--<h4 class="turtletext">Coming soon to a market near you</h6>-->
+<div class="turtletext">Coming soon to a market near you</div>
 </div>
 </div>
+</br></br>
+<table class="tables">
+	<tr>
+		<th>Item</th>
+		<th>Quantity</th>
+		<th>Price</th>
+	</tr>
+	<tr>
+		<td>Quarter Pounder</td>
+		<td>2</td>
+		<td>$4.80</td>
+	</tr>
+	<tr>
+		<td>Burger Jr</td>
+		<td>4</td>
+		<td>$7.80</td>
+	</tr>
+	<tr>
+		<td>Big Burger</td>
+		<td>3</td>
+		<td>$15.75</td>
+	</tr>
+</table>
+</br></br>
+<ul>
+	<li><a href="./oPhone.html">Go to oPhone page</a></li>
+	<br>
+	<li><a href="https://www.hofstra.edu">Go to Hofstra edu</a></li>
+</ul>
+
 </body>
 </html>
